@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="72919" started-at="2020-04-08T12:52:13Z" finished-at="2020-04-08T12:53:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="72919" started-at="2020-04-08T12:52:13Z" finished-at="2020-04-08T12:53:26Z">
+      <class name="SeleniumPractice.Maven1.IciciHomeTest">
+        <test-method status="PASS" signature="open()[pri:0, instance:SeleniumPractice.Maven1.IciciHomeTest@55a1c291]" name="open" is-config="true" duration-ms="69030" started-at="2020-04-08T18:22:13Z" finished-at="2020-04-08T18:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="methods()[pri:0, instance:SeleniumPractice.Maven1.IciciHomeTest@55a1c291]" name="methods" duration-ms="3794" started-at="2020-04-08T18:23:22Z" finished-at="2020-04-08T18:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methods -->
+      </class> <!-- SeleniumPractice.Maven1.IciciHomeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
