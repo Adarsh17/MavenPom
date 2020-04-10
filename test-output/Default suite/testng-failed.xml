@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="SeleniumPractice.Maven1.HomePageTest">
+      <class name="SeleniumPractice.Maven1.IciciBenefitTest">
         <methods>
-          <include name="Terminate"/>
-          <include name="setup"/>
-          <include name="firstResultTest1"/>
+          <include name="open"/>
+          <include name="displayText"/>
         </methods>
-      </class> <!-- SeleniumPractice.Maven1.HomePageTest -->
+      </class> <!-- SeleniumPractice.Maven1.IciciBenefitTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

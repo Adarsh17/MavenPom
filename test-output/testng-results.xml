@@ -1,21 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="72919" started-at="2020-04-08T12:52:13Z" finished-at="2020-04-08T12:53:26Z">
+  <suite name="Suite" duration-ms="265432" started-at="2020-04-09T08:54:11Z" finished-at="2020-04-09T08:58:36Z">
     <groups>
+      <group name="regression">
+        <method signature="IciciBenefitTest.displaydofd()[pri:5, instance:SeleniumPractice.Maven1.IciciBenefitTest@2890c451]" name="displaydofd" class="SeleniumPractice.Maven1.IciciBenefitTest"/>
+        <method signature="IciciHomeTest.method()[pri:1, instance:SeleniumPractice.Maven1.IciciHomeTest@2145433b]" name="method" class="SeleniumPractice.Maven1.IciciHomeTest"/>
+        <method signature="IciciHomeTest.method2()[pri:2, instance:SeleniumPractice.Maven1.IciciHomeTest@2145433b]" name="method2" class="SeleniumPractice.Maven1.IciciHomeTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="IciciBenefitTest.displayText()[pri:4, instance:SeleniumPractice.Maven1.IciciBenefitTest@2890c451]" name="displayText" class="SeleniumPractice.Maven1.IciciBenefitTest"/>
+        <method signature="IciciHomeTest.method3()[pri:3, instance:SeleniumPractice.Maven1.IciciHomeTest@2145433b]" name="method3" class="SeleniumPractice.Maven1.IciciHomeTest"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="72919" started-at="2020-04-08T12:52:13Z" finished-at="2020-04-08T12:53:26Z">
+    <test name="Test" duration-ms="265432" started-at="2020-04-09T08:54:11Z" finished-at="2020-04-09T08:58:36Z">
       <class name="SeleniumPractice.Maven1.IciciHomeTest">
-        <test-method status="PASS" signature="open()[pri:0, instance:SeleniumPractice.Maven1.IciciHomeTest@55a1c291]" name="open" is-config="true" duration-ms="69030" started-at="2020-04-08T18:22:13Z" finished-at="2020-04-08T18:23:22Z">
+        <test-method status="PASS" signature="open()[pri:0, instance:SeleniumPractice.Maven1.IciciHomeTest@2145433b]" name="open" is-config="true" duration-ms="64408" started-at="2020-04-09T14:24:11Z" finished-at="2020-04-09T14:25:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method status="PASS" signature="methods()[pri:0, instance:SeleniumPractice.Maven1.IciciHomeTest@55a1c291]" name="methods" duration-ms="3794" started-at="2020-04-08T18:23:22Z" finished-at="2020-04-08T18:23:26Z">
+        <test-method status="PASS" signature="method()[pri:1, instance:SeleniumPractice.Maven1.IciciHomeTest@2145433b]" name="method" duration-ms="2343" started-at="2020-04-09T14:25:15Z" finished-at="2020-04-09T14:25:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methods -->
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="open()[pri:0, instance:SeleniumPractice.Maven1.IciciHomeTest@2145433b]" name="open" is-config="true" duration-ms="48760" started-at="2020-04-09T14:25:18Z" finished-at="2020-04-09T14:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="method2()[pri:2, instance:SeleniumPractice.Maven1.IciciHomeTest@2145433b]" name="method2" duration-ms="2754" started-at="2020-04-09T14:26:07Z" finished-at="2020-04-09T14:26:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="open()[pri:0, instance:SeleniumPractice.Maven1.IciciHomeTest@2145433b]" name="open" is-config="true" duration-ms="50238" started-at="2020-04-09T14:26:09Z" finished-at="2020-04-09T14:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="method3()[pri:3, instance:SeleniumPractice.Maven1.IciciHomeTest@2145433b]" name="method3" duration-ms="326" started-at="2020-04-09T14:27:00Z" finished-at="2020-04-09T14:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
       </class> <!-- SeleniumPractice.Maven1.IciciHomeTest -->
+      <class name="SeleniumPractice.Maven1.IciciBenefitTest">
+        <test-method status="PASS" signature="open()[pri:0, instance:SeleniumPractice.Maven1.IciciBenefitTest@2890c451]" name="open" is-config="true" duration-ms="48369" started-at="2020-04-09T14:27:00Z" finished-at="2020-04-09T14:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="displayText()[pri:4, instance:SeleniumPractice.Maven1.IciciBenefitTest@2890c451]" name="displayText" duration-ms="141" started-at="2020-04-09T14:27:48Z" finished-at="2020-04-09T14:27:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayText -->
+        <test-method status="PASS" signature="open()[pri:0, instance:SeleniumPractice.Maven1.IciciBenefitTest@2890c451]" name="open" is-config="true" duration-ms="47969" started-at="2020-04-09T14:27:48Z" finished-at="2020-04-09T14:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="displaydofd()[pri:5, instance:SeleniumPractice.Maven1.IciciBenefitTest@2890c451]" name="displaydofd" duration-ms="55" started-at="2020-04-09T14:28:36Z" finished-at="2020-04-09T14:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displaydofd -->
+      </class> <!-- SeleniumPractice.Maven1.IciciBenefitTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

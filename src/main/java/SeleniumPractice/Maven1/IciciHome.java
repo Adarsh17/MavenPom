@@ -32,6 +32,19 @@ public class IciciHome extends IciciBasic {
 		return d.findElement(By.xpath("//input[@id='tenureDay']"));
 	}
 	
+	//Test case 2
+	public WebElement text1()
+	{
+		return d.findElement(By.xpath("//*[@id='spnRateOfInterest']"));
+	}
+	
+	public WebElement text2()
+	{
+		return d.findElement(By.xpath("//*[@id='spnMaturityDate']"));
+	}
+	
+	
+	
 	
 	//actions
 	public void firstRadioTo()
@@ -71,6 +84,19 @@ public class IciciHome extends IciciBasic {
 	{
 		days().sendKeys(day);
 	}
+	
+	//Test case 2
+	public void text1To()
+	{
+		System.out.println("Rate of Interest (%) : "+ (text1().getText())    );
+	}
+	
+	public void text2To()
+	{
+		System.out.println("Maturity Date : "+ (text2().getText())    );
+	}
+	
+	
 	
 	
 }

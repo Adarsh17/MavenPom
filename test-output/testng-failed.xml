@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+  <test name="Test(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
     <classes>
+      <class name="SeleniumPractice.Maven1.IciciBenefitTest">
+        <methods>
+          <include name="displaydofd"/>
+        </methods>
+      </class> <!-- SeleniumPractice.Maven1.IciciBenefitTest -->
       <class name="SeleniumPractice.Maven1.IciciHomeTest">
         <methods>
-          <include name="methods"/>
-          <include name="open"/>
+          <include name="method2"/>
+          <include name="method"/>
         </methods>
       </class> <!-- SeleniumPractice.Maven1.IciciHomeTest -->
     </classes>

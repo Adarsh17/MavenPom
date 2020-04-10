@@ -64,7 +64,7 @@ public class IciciBasic {
 	public void open()
 	{
 		initialize();
-		d.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		d.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 		d.switchTo().frame("paymframe");
 	}
 	
